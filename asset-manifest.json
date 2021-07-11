@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.a42d99a2.chunk.js",
-    "main.js.map": "/static/js/main.a42d99a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fc017616.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fc017616.js.map",
-    "static/js/2.d5ef75c1.chunk.js": "/static/js/2.d5ef75c1.chunk.js",
-    "static/js/2.d5ef75c1.chunk.js.map": "/static/js/2.d5ef75c1.chunk.js.map",
-    "static/js/3.ff657e8b.chunk.js": "/static/js/3.ff657e8b.chunk.js",
-    "static/js/3.ff657e8b.chunk.js.map": "/static/js/3.ff657e8b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.d5ef75c1.chunk.js.LICENSE.txt": "/static/js/2.d5ef75c1.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/emef-monte-carlo-course-registration-frontend/static/css/main.a617e044.chunk.css",
+    "main.js": "/emef-monte-carlo-course-registration-frontend/static/js/main.a42d99a2.chunk.js",
+    "main.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/main.a42d99a2.chunk.js.map",
+    "runtime-main.js": "/emef-monte-carlo-course-registration-frontend/static/js/runtime-main.d6e868fc.js",
+    "runtime-main.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/runtime-main.d6e868fc.js.map",
+    "static/js/2.d5ef75c1.chunk.js": "/emef-monte-carlo-course-registration-frontend/static/js/2.d5ef75c1.chunk.js",
+    "static/js/2.d5ef75c1.chunk.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/2.d5ef75c1.chunk.js.map",
+    "static/js/3.ff657e8b.chunk.js": "/emef-monte-carlo-course-registration-frontend/static/js/3.ff657e8b.chunk.js",
+    "static/js/3.ff657e8b.chunk.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/3.ff657e8b.chunk.js.map",
+    "index.html": "/emef-monte-carlo-course-registration-frontend/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/emef-monte-carlo-course-registration-frontend/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.d5ef75c1.chunk.js.LICENSE.txt": "/emef-monte-carlo-course-registration-frontend/static/js/2.d5ef75c1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/emef-monte-carlo-course-registration-frontend/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc017616.js",
+    "static/js/runtime-main.d6e868fc.js",
     "static/js/2.d5ef75c1.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.a42d99a2.chunk.js"
