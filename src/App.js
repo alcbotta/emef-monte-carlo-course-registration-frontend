@@ -1,21 +1,20 @@
 import "./App.scss";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import { useForm } from '@formspree/react';
+import { useForm } from "@formspree/react";
 
 function App() {
-
   const [state, handleSubmit] = useForm("xleawdjb");
-
-  
-  
-  return (
-    <div className="App">
-      <header className="App-header">
-      <h3 className="pb-3">
-            Por favor, preencha o formulário abaixo para demonstrar o seu
-            interesse em aprender a programar.
-          </h3>
+  let body = null;
+  if (state.succeeded) {
+    body = <p>Formulário submetido!</p>;
+  } else {
+    body = (
+      <>
+        <h3 className="pb-3">
+          Por favor, preencha o formulário abaixo para demonstrar o seu
+          interesse em aprender a programar.
+        </h3>
         <div className="blurred-box">
           <div className="student-form">
             <Form
@@ -35,7 +34,6 @@ function App() {
                   id="contact-name"
                   placeholder={"Seu nome"}
                 />
-                
               </FormGroup>
               <FormGroup>
                 <Label>{"Email"}</Label>
@@ -57,13 +55,23 @@ function App() {
                   placeholder={"Sim/Não ou explique"}
                 />
               </FormGroup>
-              <Button color="primary" className="send-button">
+              <Button
+                color="primary"
+                className="send-button"
+                disabled={state.submitting}
+              >
                 Enviar
               </Button>
             </Form>
           </div>
         </div>
-      </header>
+      </>
+    );
+  }
+
+  return (
+    <div className="App">
+      <header className="App-header">{body}</header>
     </div>
   );
 }
