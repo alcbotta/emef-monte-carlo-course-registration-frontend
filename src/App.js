@@ -1,8 +1,14 @@
 import "./App.scss";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
+import { useForm } from '@formspree/react';
 
 function App() {
+
+  const [state, handleSubmit] = useForm("xleawdjb");
+
+  
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -13,8 +19,9 @@ function App() {
         <div className="blurred-box">
           <div className="student-form">
             <Form
-              action="https://formspree.io/andre.emef.montecarlo.2021@gmail.com"
-              method="POST"
+              onSubmit={handleSubmit}
+              // action="https://formspree.io/andre.emef.montecarlo.2021@gmail.com"
+              // method="POST"
               name="sentMessage"
               id="contactForm"
               noValidate={false}
@@ -28,6 +35,7 @@ function App() {
                   id="contact-name"
                   placeholder={"Seu nome"}
                 />
+                
               </FormGroup>
               <FormGroup>
                 <Label>{"Email"}</Label>
