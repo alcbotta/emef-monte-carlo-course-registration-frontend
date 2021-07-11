@@ -4,6 +4,8 @@
     "dockerFile": "Dockerfile",
     "remoteUser": "node",
     "settings": {
+        "debug.javascript.usePreview": true,
+
         "terminal.integrated.profiles.linux": {
             "bash": {
                 "path": "bash"
