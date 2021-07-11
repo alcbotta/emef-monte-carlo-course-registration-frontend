@@ -1,1 +1,0 @@
-# emef-monte-carlo-course-registration-frontend
