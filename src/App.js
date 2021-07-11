@@ -13,7 +13,7 @@ function App() {
         <div className="blurred-box">
           <div className="student-form">
             <Form
-              action="https://formspree.io/andre.emef.montecarlo@gmail.com"
+              action="https://formspree.io/andre.emef.montecarlo.2021@gmail.com"
               method="POST"
               name="sentMessage"
               id="contactForm"
