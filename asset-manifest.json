@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emef-monte-carlo-course-registration-frontend/static/css/main.a4166573.chunk.css",
-    "main.js": "/emef-monte-carlo-course-registration-frontend/static/js/main.527a0095.chunk.js",
-    "main.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/main.527a0095.chunk.js.map",
+    "main.js": "/emef-monte-carlo-course-registration-frontend/static/js/main.c3c6cf29.chunk.js",
+    "main.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/main.c3c6cf29.chunk.js.map",
     "runtime-main.js": "/emef-monte-carlo-course-registration-frontend/static/js/runtime-main.63635c23.js",
     "runtime-main.js.map": "/emef-monte-carlo-course-registration-frontend/static/js/runtime-main.63635c23.js.map",
     "static/css/2.455652b6.chunk.css": "/emef-monte-carlo-course-registration-frontend/static/css/2.455652b6.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.455652b6.chunk.css",
     "static/js/2.e596eb4c.chunk.js",
     "static/css/main.a4166573.chunk.css",
-    "static/js/main.527a0095.chunk.js"
+    "static/js/main.c3c6cf29.chunk.js"
   ]
 }
