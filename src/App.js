@@ -1,39 +1,12 @@
 import "./App.scss";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
-// import { useForm } from "@formspree/react";
-import axios from "axios";
-import React, { useEffect } from 'react';
+import { useForm } from "@formspree/react";
 
 function App() {
-
-  const submit = async () => {
-    try{
-      const result = await axios.post('https://jsonplaceholder.typicode.com/posts', {
-        method: 'POST',
-        body: JSON.stringify({
-          title: 'foo',
-          body: 'bar',
-          userId: 1,
-        }),
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8',
-        },
-      });
-      console.log(result);
-    }catch (e){
-      console.error(e)
-    }
-  }
-
-  useEffect(() => {
-    
-    submit();
-  });
-
-  // const [state, ] = useForm("xleawdjb");
+  const [state, handleSubmit] = useForm("xleawdjb");
   let body = null;
-  if (false) {
+  if (state.succeeded) {
     body = <p>Formulário submetido!</p>;
   } else {
     body = (
@@ -45,7 +18,7 @@ function App() {
         <div className="blurred-box">
           <div className="student-form">
             <Form
-              // onSubmit={handleSubmit}
+              onSubmit={handleSubmit}
               // action="https://formspree.io/andre.emef.montecarlo.2021@gmail.com"
               // method="POST"
               name="sentMessage"
@@ -85,8 +58,7 @@ function App() {
               <Button
                 color="primary"
                 className="send-button"
-                // disabled={state.submitting}
-                onClick={submit}
+                disabled={state.submitting}
               >
                 Enviar
               </Button>
