@@ -3,7 +3,9 @@ import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { useForm } from "@formspree/react";
 
-function App() {
+
+const App = ({useForm}) => {
+// const App = () => {
   const [state, handleSubmit] = useForm("xleawdjb");
   let body = null;
   if (state.succeeded) {
